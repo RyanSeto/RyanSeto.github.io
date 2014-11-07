@@ -1,9 +1,12 @@
-#error {
-	text-align:center;
-	font-size:350%;
+body.main-error {
+	text-align: center;
 }
 
-#home-link{
-	text-align:center;
-	font:family:"Helvetica";
+.error-code {
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.home-link {
+	margin-top: 75px;
 }

@@ -1,7 +1,54 @@
 body {
-	font-family: "Helvetica"
+	font-family: "Open Sans", "Helvetica", "sans-serif", "Arial"
 }
 
 body.home-page {
 	text-align: center;
+}
+
+body.home-page .row {
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+ a.profile-picture { 
+ 	position: relative; 
+ 	width: 200px;
+ 	text-decoration: none !important; 
+ 	text-align: center; 
+ } 
+
+ a.profile-picture:after { 
+ 	content: attr(title); 
+ 	position: absolute; 
+ 	left: 0; 
+ 	bottom: 0;
+ 	top: 82px;
+ 	padding: 0em 20px; 
+ 	width: 200px; 
+ 	height: 20px;
+ 	background: rgba(0,0,0,0.8); 
+ 	text-decoration: none !important; 
+ 	color: #fff;
+ 	opacity: 0; 
+ 	-webkit-transition: 0.5s; 
+ 	-moz-transition: 0.5s; 
+ 	-o-transition: 0.5s; 
+ 	-ms-transition: 0.5s; 
+} 
+
+a.profile-picture:hover:after, a.profile-picture:focus:after { 
+	opacity: 1.0; 
+}
+
+.personal-info {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.work-in-progress {
+	margin-top: 15px;
 }
